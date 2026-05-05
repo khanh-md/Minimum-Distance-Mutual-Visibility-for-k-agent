@@ -19,7 +19,7 @@ An iterative, vector-based approach where agents calculate the geometric mean of
 * **Failure State:** Frequently fails in non-convex polygons. Because it lacks awareness of reflex vertices, agents become trapped against walls in "local minima" (geographically close, but visually separated).
 * **Complexity:** Time $O(T \cdot k)$, Space $O(k + n)$.
 
-### 2. Geodesic Topological Decomposition (Primary Solver)
+### 2. Geodesic Topological Decomposition 
 A robust, Fixed-Parameter Tractable (FPT) algorithm designed to guarantee success in highly complex, non-convex geometry. 
 * **Mechanism:**
     1. Generates a **Geodesic Convex Hull** to prune the search space.
