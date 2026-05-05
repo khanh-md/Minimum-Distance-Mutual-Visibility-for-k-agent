@@ -28,3 +28,22 @@ A robust, Fixed-Parameter Tractable (FPT) algorithm designed to guarantee succes
     4. Performs **Ray-Casting Backtracking** based on the *Tangency Lemma*, stopping agents at the exact threshold where their line of sight grazes a reflex corner to ensure the absolute minimum travel distance.
 * **Complexity:** Time $O(r^{k-1}n)$, Space $O(n + r^2 + k)$, where $r$ is the number of reflex vertices.
 
+## References
+[1] J. S. B. Mitchell, L. Nguyen. Approximation Algorithms for Anchored Multiwatchman 
+Routes. arXiv:2408.17343, 2024. (CCCG 2024.)  
+[2] H.-K. Ahn, E. Oh, L. Schlipf, F. Stehn, D. Strash. On Romeo and Juliet Problems: 
+Minimizing Distance-to-Sight. Computational Geometry, 84:12-21, 2019. arXiv:1906.01114.  
+[3] E. L. Wynters, J. S. B. Mitchell. Shortest Paths for a Two-Robot Rendez-vous. CCCG 1993, 
+pp. 216-221.  
+[4] H.-K. Ahn, L. Barba, P. Bose, J.-L. De Carufel, M. Korman, E. Oh. A Linear-Time Algorithm 
+for the Geodesic Center of a Simple Polygon. Discrete and Computational Geometry, 
+56(4):836-859, 2016.  
+[5] A. Lubiw, A. M. Naredla. The Visibility Center of a Simple Polygon. ESA 2021, LIPIcs 204, 
+pp. 65:1-65:14. arXiv:2108.07366.  
+[6] B. J. Nilsson, E. Packer. Approximation Algorithms for the Two-Watchman Route in a 
+Simple Polygon. Algorithmica, 86(9):2845-2884, 2024. arXiv:2309.13428.  
+[7] A. Brötzner, B. J. Nilsson, C. Schmidt. Multiple Watchman Routes in Staircase Polygons. 
+CCCG 2025. arXiv:2507.01940.  
+[8] A. Agrawal, K. Knudsen, D. Lokshtanov, S. Saurabh, M. Zehavi. The Parameterized 
+Complexity of Guarding Almost Convex Polygons. Discrete & Computational Geometry, 
+71(2):358-398, 2023
