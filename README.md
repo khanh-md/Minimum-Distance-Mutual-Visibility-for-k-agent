@@ -2,7 +2,7 @@
 
 This repository contains the experimental study and algorithmic implementation for the **$k$-agent Distance-to-Sight Mutual Visibility Problem**. 
 
-The primary objective of this project is to coordinate an unanchored group of mobile agents within a bounded, non-convex environment (such as a complex floor plan or maze). The goal is to find the absolute minimum distance the agents must travel to reach a state of **Mutual Visibility**—a configuration where every single agent has a straight, unobstructed line of sight to every other agent simultaneously.
+The primary objective of this project is to coordinate an unanchored group of mobile agents within a bounded, non-convex environment (such as a complex floor plan or maze). The goal is to find the absolute minimum distance the agents must travel to reach a state of **Mutual Visibility**, a configuration where every single agent has a straight, unobstructed line of sight to every other agent simultaneously.
 
 ## Key Features
 
